@@ -35,7 +35,7 @@ label{
 .aboutUs-title {
   color: #212529;
   font-size: 3rem;
-  padding-bottom: 3%;
+  padding-bottom: 1%;
   padding-right: 12%;
   font-family: 'El Messiri', sans-serif;
 }
@@ -279,6 +279,16 @@ opacity: 0.6;
   margin-bottom: 2rem;
 }
 
+@media (max-width: 700px){
+
+  .tanchi2aRow p{
+    padding: 0 5%;
+    margin-bottom: 5%
+  }
+
+}
+
+
 /* Footer */
 
 .footer {
@@ -306,6 +316,10 @@ opacity: 0.6;
   }
   .aboutUs-content {
     font-size: 1rem;
+    text-align: center;
+  }
+  .aboutus-btn{
+    text-align: center;
   }
   .aboutUs-img {
     width: 300px;
@@ -329,7 +343,7 @@ opacity: 0.6;
   text-align: center;
 }
 .moreButton{
-  background-color: #212529;
+  background-color: #950101;
   color: white;
 }
 
